@@ -81,5 +81,21 @@ $note = 13;
 if($note <= 12 || $note >= 15){
     echo "bien";
 }else{
-    echo "tsy ampy";
+    echo "passable";
+}
+
+echo "<br>";
+$message = "Hello";
+$message .= " World !";
+echo $message;
+
+echo "<br>";
+$i = 3; $j = 4;
+if ( $i = $j )
+{
+echo "$i et $j sont ´egaux";
+}
+else
+{
+echo "$i et $j ne sont pas ´egaux";
 }
