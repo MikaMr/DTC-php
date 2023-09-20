@@ -99,3 +99,4 @@ else
 {
 echo "$i et $j ne sont pas ´egaux";
 }
+
